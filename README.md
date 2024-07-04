@@ -4,11 +4,15 @@ PVTSeg is an encoder decoder network which can be used for efficient biomedical 
 
 ## In-distribution and Out-of-distributuion dataset
 
+![](./results/PVTSeg_In_Out.png)
+
+*Figure 1. The proposed work conducted both in-distribution and out-of-distribution validation process. C1 to C6 represent the different centers data present in PolypGen dataset width=50% height=50%*
+
 ## PVTSeg
 
-![](./results/PVTSeg.jpg)
+![](./results/PVTSeg.png)
 
-Figure 2. Overview of the PVTSeg framework.
+*Figure 2. Overview of the PVTSeg framework.*
 
 ## datasets
 
@@ -22,30 +26,34 @@ download the datasets (1) [kvasir-seg](https://pan.baidu.com/s/1lDjPQnuJxmUi5TPc
 
 3. more information about PolypGen (PolypGen2021_MultiCenterData_v3) refers to the paper [S. Ali, D. Jha, N. Ghatwary, S. Realdon, R. Cannizzaro, O. E. Salem,  D. Lamarque, C. Daul, M. A. Riegler, K. V. Anonsen, et al., A multicentre polyp detection and segmentation dataset for generalisability  assessment, Scientific Data, vol. 10, no. 1, p. 75, 2023]
 
-## pretrained model
+## trained model
 
-We provide pth of our PVTSeg trained on kvasir-seg；
-(link: https://pan.baidu.com/s/13shptjoT0MhKa1mCm9BY9g code: 7g5w)
+We provide pth of our PVTSeg trained on kvasir-seg
+(link: https://pan.baidu.com/s/1KQ-fBvKLxoTFmbbo03OA2A?pwd=c411)
 
 ## results (Qualitative results)
 
-<img title="" src="./results/fig2.jpg" alt="" width="596">
+<img title="" src="./results/polyp1.png" alt="" width="596">
 
-Figure 4. The heatmap display the intensity of the regions of interest predicted by each model. Through this comparative visualization, we can intuitively evaluate the accuracy and detail performance of different models in segmentation tasks.
+*Figure 4. The heatmap display the intensity of the regions of interest predicted by each model. Through this comparative visualization, we can intuitively evaluate the accuracy and detail performance of different models in segmentation tasks.*
+
+---
+
+![](./results/polyp2.png)
+
+*Figure 5. Qualitative results comparison along with the heatmap of PVTSeg on the CVC-ClinicDB.*
 
 ---
 
-![](./results/fig3.jpg)
+![](./results/polyp3.png)
 
-Figure 5. Qualitative results comparison along with the heatmap of PVTSeg on the CVC-ClinicDB.
-
----
+*Figure 6. Qualitative results comparison along with the heatmap  of PVTSeg on the Kvasir-SEG.*
 
 ## results (Qualitative results)
 
 <img title="" src="./results/PVTSeg-result1.png" alt="" width="523">
 
-<img title="" src="./results/PVTSeg-result2.png" alt="" data-align="inline" width="400">
+<img title="" src="./results/PVTSeg-result2.png" alt="" data-align="inline" width="511">
 
 ![](./results/PVTSeg-result3.png)
 
