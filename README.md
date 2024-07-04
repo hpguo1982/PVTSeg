@@ -1,10 +1,24 @@
-# datasets
+
+
+# PVTSeg: A Simple and  Effective Real-Time PVT-based Polyp Segmentor
+
+PVTSeg is an encoder decoder network which can be used for efficient biomedical image segmentation for both in-distribution and out-of-distribution datasets.
+
+#### In-distribution and Out-of-distributuion dataset
+
+
+
+#### PVTSeg
+
+![](./results/PVTSeg.jpg)
+
+Figure 2. Overview of the PVTSeg framework.
+
+#### datasets
 
 download the datasets (1) [kvasir-seg](https://pan.baidu.com/s/1lDjPQnuJxmUi5TPcc2GFCg?pwd=q9jm ), (2) [CVC-ClinicDB](https://pan.baidu.com/s/1Y-N0-6knQu8st8hJIvqSNg?pwd=fhov ) and (3) [PolypGen](https://pan.baidu.com/s/1JCGqy1Kq_J6aoo5289P7aA?pwd=aukk ). 
 
 ---
-
-
 
 1. more information about kvasir-seg refers to the paper [D. Jha, P. H. Smedsrud, M. A. Riegler, P. Halvorsen, T. De Lange,  D. Johansen, and H. D. Johansen, Kvasir-seg: A segmented polyp  dataset, in MultiMedia Modeling: 26th International Conference, MMM  2020, Daejeon, South Korea, January 5–8, 2020, Proceedings, Part II  26. Springer, 2020, pp. 451–462]
 
@@ -12,34 +26,36 @@ download the datasets (1) [kvasir-seg](https://pan.baidu.com/s/1lDjPQnuJxmUi5TPc
 
 3. more information about PolypGen (2021_MultiCenterData_v3) refers to the paper [S. Ali, D. Jha, N. Ghatwary, S. Realdon, R. Cannizzaro, O. E. Salem,  D. Lamarque, C. Daul, M. A. Riegler, K. V. Anonsen, et al., A multicentre polyp detection and segmentation dataset for generalisability  assessment, Scientific Data, vol. 10, no. 1, p. 75, 2023]
 
-# usage
-
-We implemented the model using the Pytorch framework on an NVIDIA A100 GPU system. The Adam optimizer was used with a learning rate of 1e-4, and the batch size was set to 16, with a maximum of 500 epochs. Specifically,
-
-
-
-# results of PVTSeg
+#### pretrained model
 
 We provide pth of our PVTSeg trained on kvasir-seg；
-(link: https://pan.baidu.com/s/13shptjoT0MhKa1mCm9BY9g code: 7g5w) 
+(link: https://pan.baidu.com/s/13shptjoT0MhKa1mCm9BY9g code: 7g5w)
 
-1.heatmaps of each methods
+#### results (Qualitative results)
 
 <img title="" src="./results/fig2.jpg" alt="" width="596">
 
-2.Qualitative results comparison along with the heatmap on the CVC-ClinicDB.
+Figure 4. The heatmap display the intensity of the regions of interest predicted by each model. Through this comparative visualization, we can intuitively evaluate the accuracy and detail performance of different models in segmentation tasks.
+
+---
 
 ![](./results/fig3.jpg)
 
-3.qualitative results comparison along with the heatmap on the Kvasir-SEG.
+Figure 5. Qualitative results comparison along with the heatmap of PVTSeg on the CVC-ClinicDB.
 
-4.The statistic results of the compared methods on kvasir-seg, CVC-ClinicDB and PolypGen (PolypGen2021_MultiCenterData_v3)s are as follows
+---
+
+
+
+
+
+#### results (Qualitative results)
 
 <img title="" src="./results/PVTSeg-result1.png" alt="" width="523">
 
-<img title="" src="./results/PVTSeg-result2.png" alt="" data-align="inline" width="523">
+<img title="" src="./results/PVTSeg-result2.png" alt="" data-align="inline" width="400">
 
-<img title="" src="./results/PVTSeg-result3.png" alt="" width="670">
+![](G:\Submit\PVTSeg\results\PVTSeg-result3.png)
 
 
 
