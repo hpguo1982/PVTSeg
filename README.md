@@ -1,4 +1,4 @@
-# PVTSeg: A Simple and  Effective Real-Time PVT-based Polyp Segmentor
+# PVTSeg: A Simple and  Effective PVT-based Polyp Segmentor
 
 PVTSeg is an encoder decoder network which can be used for efficient biomedical image segmentation for both in-distribution and out-of-distribution datasets.
 
