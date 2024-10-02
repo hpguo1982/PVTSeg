@@ -53,8 +53,8 @@ We provide pth of our PVTSeg trained on kvasir-seg
 
 <img title="" src="./results/PVTSeg-result1.png" alt="" width="523">
 
-<img title="" src="./results/PVTSeg-result2.png" alt="" data-align="inline" width="511">
+<img title="" src="./results/PVTSeg-result2.png" alt="" data-align="inline" width="631">
 
 ![](./results/PVTSeg-result3.png)
 
-# 
+<img src="./results/PVTSeg-result4.png" title="" alt="" width="651">
