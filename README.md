@@ -51,8 +51,8 @@ We provide pth of our PVTSeg trained on kvasir-seg
 
 ## results (Qualitative results)
 
-<img title="" src="./results/PVTSeg-result1.png" alt="" width="523">
 
-![](./results/PVTSeg-result2-3.png)
+
+![](./results/PVTSeg-result1-2-3.png)
 
 <img src="./results/PVTSeg-result4.png" title="" alt="" width="651">
